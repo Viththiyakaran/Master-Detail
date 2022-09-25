@@ -34,7 +34,7 @@ namespace Master_Detail.Controllers
             applicant.Experiences.Add(new Exprience() { ExperienceId = 1 });
             applicant.Experiences.Add(new Exprience() { ExperienceId = 2 });
             applicant.Experiences.Add(new Exprience() { ExperienceId = 3 });
-            applicant.Experiences.Add(new Exprience() { ExperienceId = 4 });
+            //applicant.Experiences.Add(new Exprience() { ExperienceId = 4 });
 
             return View(applicant);
         }
