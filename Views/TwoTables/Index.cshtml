@@ -1,0 +1,22 @@
+﻿@model Master_Detail.Models.TwoTables
+
+
+<table>
+    <tr>
+        <td> Name</td>
+        <td> Total Expricen </td>
+        <td> 1st Employee</td>
+    </tr>
+    @foreach (var item in Model.applicants)
+    {
+        <td> @item.Name</td>
+        <td> @item.TotalExperience </td>
+    }
+
+    @foreach (var item in Model.expriences)
+    {
+        <td> @item.CompanyName</td>
+       
+    }
+
+</table>
